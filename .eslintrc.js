@@ -1,41 +1,24 @@
-// This is a patch so that eslint will load the plugins as dependencies.
+// This is a patch so that eslint will load the plugins as dependencies. Otherwise we can to install EVERYTHING in th root project
 require('@rushstack/eslint-patch/modern-module-resolution');
 
 module.exports = {
-  root: true,
-  extends: [
-    'airbnb',
-    'airbnb-base',
-    'prettier',
-    'plugin:import/recommended',
-  ],
+  extends: ['airbnb', 'prettier'],
+  parser: '@babel/eslint-parser',
   parserOptions: {
-    parser: '@babel/eslint-parser',
-    sourceType: 'module',
     requireConfigFile: false,
-    babelOptions: {
-    },
-    ecmaVersion: 2022,
-    ecmaFeatures: {
-   }
   },
   env: {
     browser: true,
     node: true,
-    es2022: true,
+    jquery: true,
+    jest: true,
   },
   rules: {
-    'import/no-unresolved': [2, {commonjs: true, amd: true}],
-    'import/named': 2,
-    'import/namespace': 2,
-    'import/default': 2,
-    'import/export': 2,
     'no-debugger': 0,
     'no-use-before-define': 'off',
     'import/no-cycle': 'off',
     'no-alert': 0,
     'no-await-in-loop': 0,
-    'no-plusplus': [2, { allowForLoopAfterthoughts: true }],
     'no-return-assign': ['error', 'except-parens'],
     'no-restricted-syntax': [
       2,
@@ -47,7 +30,10 @@ module.exports = {
       1,
       {
         ignoreRestSiblings: true,
-        argsIgnorePattern: 'res|next|^err',
+        argsIgnorePattern: 'res|next|^err|^_',
+        varsIgnorePattern: '^_',
+        // Broken in TypeSCript.Want this turned on
+        // destructuredArrayIgnorePattern: '^_',
       },
     ],
     'prefer-const': [
@@ -58,9 +44,11 @@ module.exports = {
     ],
     'arrow-body-style': [2, 'as-needed'],
     'no-unused-expressions': [
-      2,
+      'error',
       {
         allowTaggedTemplates: true,
+        allowShortCircuit: true,
+        allowTernary: true,
       },
     ],
     'no-param-reassign': [
@@ -79,6 +67,14 @@ module.exports = {
     'import/extensions': 0,
     'no-underscore-dangle': 0,
     'consistent-return': 0,
+    radix: 0,
+    'no-shadow': [
+      2,
+      {
+        hoist: 'all',
+        allow: ['resolve', 'reject', 'done', 'next', 'err', 'error'],
+      },
+    ],
     quotes: [
       2,
       'single',
@@ -90,14 +86,11 @@ module.exports = {
     'prettier/prettier': [
       'error',
       {
-        trailingComma: 'es6',
         singleQuote: true,
-        printWidth: 80,
-        // below line only for windows users facing CLRF and eslint/prettier error
-        // non windows users feel free to delete it
         endOfLine: 'auto',
       },
     ],
+    '@typescript-eslint/comma-dangle': ['off'],
   },
-  plugins: ['prettier'],
+  plugins: ['html', 'prettier'],
 };
