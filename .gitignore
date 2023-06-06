@@ -12,6 +12,7 @@ settings.json
 node_modules/
 
 # private folders and files
+.vscode/
 certs/
 .env
 .cache
