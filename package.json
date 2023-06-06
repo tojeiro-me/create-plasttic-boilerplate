@@ -1,20 +1,32 @@
 {
   "name": "plasttic-start-boilerplate",
   "version": "1.0.0",
-  "description": "An npx start script for Plasttic Boilerplate",
-  "keywords": [],
+  "description": "NPX Plasttic Boilerplate Starter",
+  "author": "Goncalo Tojeiro <dev@tojeiro.me> (https://tojeiro.me)",
   "homepage": "https://github.com/tojeiro-me/Plasttic-start-boilerplate",
-  "bugs": {
-    "url": "https://github.com/tojeiro-me/Plasttic-start-boilerplate/issues"
-  },
+  "license": "MIT",
+  "keywords": [
+    "plasttic boilerplate"
+  ],
+  "type": "module",
   "repository": {
     "type": "git",
-    "url": "https://github.com/tojeiro-me/Plasttic-start-boilerplate.git"
+    "url": "git+https://github.com/tojeiro-me/Plasttic-start-boilerplatet.git"
   },
-  "license": "MIT",
-  "author": "@h5bp",
   "main": "index.js",
-  "type": "module",
+  "directories": {},
+  "files": [
+    "lib/**/*",
+    "license.txt",
+    "index.js",
+    "README.md",
+    "CHANGELOG.md"
+  ],
+  "bugs": {
+    "url": "https://github.com/tojeiro-me/Plasttic-start-boilerplate/issues",
+    "email": "global@plasttic.dev"
+  },
+  "config": {},
   "bin": {
     "start-plasttic-boilerplate": "./index.js"
   },
@@ -22,12 +34,6 @@
     "test": "node --experimental-vm-modules ./node_modules/jest/bin/jest.js",
     "coverage": "node --experimental-vm-modules ./node_modules/jest/bin/jest.js --coverage --collectCoverageOnlyFrom ./lib/cli.js"
   },
-  "files": [
-    "lib/**/*",
-    "license.txt",
-    "index.js",
-    "README.md"
-  ],
   "dependencies": {
     "chalk": "^5.2.0",
     "compare-versions": "^5.0.3",
