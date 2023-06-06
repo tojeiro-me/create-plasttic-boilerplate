@@ -1,27 +1,25 @@
 {
-  "name": "create-html5-boilerplate",
+  "name": "plasttic-start-boilerplate",
   "version": "1.0.0",
-  "description": "An npm based quickstart app for HTML5-Boilerplate",
+  "description": "An npx start script for Plasttic Boilerplate",
   "keywords": [],
-  "homepage": "https://html5boilerplate.com/",
+  "homepage": "https://github.com/tojeiro-me/Plasttic-start-boilerplate",
   "bugs": {
-    "url": "https://github.com/h5bp/create-html5-boilerplate/issues"
+    "url": "https://github.com/tojeiro-me/Plasttic-start-boilerplate/issues"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/h5bp/create-html5-boilerplate.git"
+    "url": "https://github.com/tojeiro-me/Plasttic-start-boilerplate.git"
   },
   "license": "MIT",
   "author": "@h5bp",
   "main": "index.js",
   "type": "module",
   "bin": {
-    "create-html5-boilerplate": "./index.js"
+    "start-plasttic-boilerplate": "./index.js"
   },
   "scripts": {
     "test": "node --experimental-vm-modules ./node_modules/jest/bin/jest.js",
-    "lint": "eslint lib/cli.js",
-    "format": "prettier --write \"./cli.js\" \"tests/*.js\"",
     "coverage": "node --experimental-vm-modules ./node_modules/jest/bin/jest.js --coverage --collectCoverageOnlyFrom ./lib/cli.js"
   },
   "files": [
