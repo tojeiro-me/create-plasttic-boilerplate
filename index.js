@@ -1,5 +1,7 @@
 #!/usr/bin/env node
 // eslint-disable-next-line import/extensions
-import cli from "./lib/cli.js";
+import starterCli from "./lib/starter-cli.js";
 
-cli(process.argv.slice(2)).catch(console.error);
+starterCli();
+
+// starterCli(process.argv.slice(2)).catch(console.error);

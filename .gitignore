@@ -12,7 +12,7 @@ settings.json
 node_modules/
 
 # private folders and files
-.vscode/
+.vscode/*
 certs/
 .env
 .cache
@@ -24,4 +24,4 @@ dist/
 # test folders and files
 archive/
 test/
-*-nogit.*
+*-nogit*
