@@ -1,6 +1,0 @@
-Vendor JS folder (Libraries and other)
-
-Add the appropriate script tags in the html for each file
-in the place advised by each vendor.
-
-<script src="assets/js/vendor/scriptsVendor.js"></script>

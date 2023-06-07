@@ -2,5 +2,6 @@
 
 # Create Plasttic Boilerplate
 
-- under development
-- npx create-plasttic-boilerplate
+Easy start for [Plasttic HTML Boilerplate](https://github.com/tojeiro-me/Plasttic-boilerplate)
+
+`npx create-plasttic-boilerplate`
