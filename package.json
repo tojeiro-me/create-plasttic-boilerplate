@@ -1,9 +1,9 @@
 {
-  "name": "plasttic-start-boilerplate",
+  "name": "create-plasttic-boilerplate",
   "version": "1.0.0",
-  "description": "NPX Plasttic Boilerplate Starter",
+  "description": "NPX Create Plasttic Boilerplate",
   "author": "Goncalo Tojeiro <dev@tojeiro.me> (https://tojeiro.me)",
-  "homepage": "https://github.com/tojeiro-me/Plasttic-start-boilerplate",
+  "homepage": "https://github.com/tojeiro-me/Plasttic-create-boilerplate",
   "license": "MIT",
   "keywords": [
     "plasttic boilerplate"
@@ -11,7 +11,7 @@
   "type": "module",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/tojeiro-me/Plasttic-start-boilerplatet.git"
+    "url": "git+https://github.com/tojeiro-me/Plasttic-create-boilerplatet.git"
   },
   "main": "index.js",
   "directories": {},
@@ -23,7 +23,7 @@
     "CHANGELOG.md"
   ],
   "bugs": {
-    "url": "https://github.com/tojeiro-me/Plasttic-start-boilerplate/issues",
+    "url": "https://github.com/tojeiro-me/Plasttic-create-boilerplate/issues",
     "email": "global@plasttic.dev"
   },
   "config": {},
