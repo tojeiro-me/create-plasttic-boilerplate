@@ -3,3 +3,4 @@
 # Create Plasttic Boilerplate
 
 - under development
+- npx create-plasttic-boilerplate
