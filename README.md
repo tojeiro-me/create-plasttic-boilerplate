@@ -5,3 +5,15 @@
 Easy start for [Plasttic HTML Boilerplate](https://github.com/tojeiro-me/Plasttic-boilerplate)
 
 `npx create-plasttic-boilerplate`
+
+---
+
+_Main project: [Plasttic](https://github.com/tojeiro-me/Plasttic)_
+
+---
+
+## License
+
+[MIT](./LICENSE)
+
+---
