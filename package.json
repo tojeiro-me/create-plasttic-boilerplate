@@ -16,6 +16,7 @@
   "main": "index.js",
   "directories": {},
   "files": [
+    "lib/*",
     "license.txt",
     "README.md",
     "CHANGELOG.md"
