@@ -29,10 +29,7 @@
   "bin": {
     "start-plasttic-boilerplate": "./index.js"
   },
-  "scripts": {
-    "test": "node --experimental-vm-modules ./node_modules/jest/bin/jest.js",
-    "coverage": "node --experimental-vm-modules ./node_modules/jest/bin/jest.js --coverage --collectCoverageOnlyFrom ./lib/cli.js"
-  },
+  "scripts": {},
   "dependencies": {
     "chalk": "^5.2.0",
     "elapsed-time-logger": "^1.1.7",
@@ -59,12 +56,6 @@
     "eslint-plugin-html": "^7.1.0",
     "eslint-plugin-import": "^2.27.5",
     "eslint-plugin-prettier": "^4.2.1",
-    "husky": "^8.0.3",
     "prettier": "^2.8.8"
-  },
-  "husky": {
-    "hooks": {
-      "pre-commit": "pretty-quick --staged"
-    }
   }
 }
