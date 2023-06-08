@@ -9,8 +9,9 @@ Quick start for [Plasttic HTML Boilerplate](https://github.com/tojeiro-me/Plastt
 ## Start
 
 ```
-cd into your projects folder
-npx create-plasttic-boilerplate
+(cd into your projects folder)
+npx create-plasttic
+cd project-name
 ```
 
 1. Installs the necessary dependencies
