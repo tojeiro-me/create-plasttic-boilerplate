@@ -1,10 +1,16 @@
-# 1.0.4 (Jun 08, 2023)
+# 1.0.5 (Jun 08, 2023)
 
-- Updated description
+- Updated README
 
 ---
 
 # Releases
+
+## 1.0.4 (Jun 08, 2023)
+
+- Updated description
+
+---
 
 # 1.0.3 (Jun 08, 2023)
 
