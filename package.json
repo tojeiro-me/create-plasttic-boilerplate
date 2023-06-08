@@ -1,6 +1,6 @@
 {
   "name": "create-plasttic-boilerplate",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "NPX Create Plasttic Boilerplate",
   "author": "Goncalo Tojeiro <dev@tojeiro.me> (https://tojeiro.me)",
   "homepage": "https://github.com/tojeiro-me/Plasttic-create-boilerplate",
@@ -11,7 +11,7 @@
   "type": "module",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/tojeiro-me/Plasttic-create-boilerplatet.git"
+    "url": "git+https://github.com/tojeiro-me/Plasttic-create-boilerplate.git"
   },
   "main": "index.js",
   "directories": {},
