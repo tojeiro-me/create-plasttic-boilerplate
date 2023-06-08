@@ -1,6 +1,6 @@
 {
   "name": "create-plasttic-boilerplate",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "Quick start for Plasttic Boilerplate",
   "author": "Goncalo Tojeiro <dev@tojeiro.me> (https://tojeiro.me)",
   "homepage": "https://github.com/tojeiro-me/Plasttic-create-boilerplate",
@@ -19,8 +19,7 @@
     "lib/*",
     "license.txt",
     "README.md",
-    "CHANGELOG.md",
-    ".github/*"
+    "CHANGELOG.md"
   ],
   "bugs": {
     "url": "https://github.com/tojeiro-me/Plasttic-create-boilerplate/issues",
