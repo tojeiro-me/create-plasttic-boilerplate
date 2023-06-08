@@ -1,7 +1,7 @@
 {
   "name": "create-plasttic-boilerplate",
   "version": "1.0.3",
-  "description": "NPX Create Plasttic Boilerplate",
+  "description": "Quick start for Plasttic Boilerplate",
   "author": "Goncalo Tojeiro <dev@tojeiro.me> (https://tojeiro.me)",
   "homepage": "https://github.com/tojeiro-me/Plasttic-create-boilerplate",
   "license": "MIT",
