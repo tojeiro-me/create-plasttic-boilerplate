@@ -1,10 +1,16 @@
+# 1.0.4 (Jun 08, 2023)
+
+- Updated description
+
+---
+
+# Releases
+
 # 1.0.3 (Jun 08, 2023)
 
 - Minor updates
 
 ---
-
-# Releases
 
 ## 1.0.2 (Jun 07, 2023)
 

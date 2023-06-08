@@ -2,7 +2,7 @@
 
 # Create Plasttic Boilerplate
 
-Easy start for [Plasttic HTML Boilerplate](https://github.com/tojeiro-me/Plasttic-boilerplate)
+Quick start for [Plasttic HTML Boilerplate](https://github.com/tojeiro-me/Plasttic-boilerplate)
 
 ---
 
