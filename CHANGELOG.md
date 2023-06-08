@@ -1,10 +1,16 @@
-# 1.0.6 (Jun 08, 2023)
+# 1.0.7 (Jun 08, 2023)
 
-- Updated images
+- Added .github
 
 ---
 
 # Releases
+
+## 1.0.6 (Jun 08, 2023)
+
+- Updated images
+
+---
 
 ## 1.0.5 (Jun 08, 2023)
 
