@@ -1,6 +1,8 @@
-# 1.0.9 (Jun 10, 2023)
+# 1.1.0 (Jun 11, 2023)
 
-- Renamed `dist` folder to `public`
+- Added README badges
+- Script minor update
+- :warning: Renamed `dist` folder to `public`
 
 ---
 
