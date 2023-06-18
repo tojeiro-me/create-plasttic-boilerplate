@@ -1,10 +1,16 @@
-# 1.1.1 (Jun 12, 2023)
+# 1.1.2 (Jun 19, 2023)
 
-- Minor script updates
+- Dependencies update
 
 ---
 
 # Releases
+
+## 1.1.1 (Jun 12, 2023)
+
+- Minor script updates
+
+---
 
 ## 1.1.0 (Jun 11, 2023)
 
