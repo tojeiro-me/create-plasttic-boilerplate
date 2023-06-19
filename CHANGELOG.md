@@ -6,7 +6,7 @@
 
 # Releases
 
-## 1.1.1 (Jun 12, 2023)
+## 1.1.1 (Jun 12, 2023) - unpublished
 
 - Minor script updates
 

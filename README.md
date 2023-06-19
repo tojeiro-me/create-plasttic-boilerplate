@@ -1,4 +1,4 @@
-[![Plasttic](https://plasttic.dev/repo/repo-banner-1400w-boilerplate.png)](https://plasttic.dev)
+[![Plasttic](./.github/assets/repo-banner-1400w-boilerplate.png)](https://plasttic.dev)
 
 # Create Plasttic Boilerplate
 
