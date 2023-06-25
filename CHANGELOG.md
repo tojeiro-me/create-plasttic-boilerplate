@@ -1,10 +1,16 @@
-# 1.1.3 (Jun 19, 2023)
+# 1.1.4 (Jun --, 2023)
 
-- Banner update
+- Update: dependencies
 
 ---
 
 # Releases
+
+## 1.1.3 (Jun 19, 2023)
+
+- Banner update
+
+---
 
 ## 1.1.2 (Jun 19, 2023)
 
