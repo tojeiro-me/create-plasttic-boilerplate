@@ -1,6 +1,6 @@
 # 1.1.4 (Jul 06, 2023)
 
-- Update: dependencies
+- Updated: dependencies
 - Updated: README
 
 ---
