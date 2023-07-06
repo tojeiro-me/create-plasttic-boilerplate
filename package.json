@@ -1,12 +1,14 @@
 {
   "name": "create-plasttic-boilerplate",
-  "version": "1.1.3",
+  "version": "1.1.4",
   "description": "Quick start for Plasttic Boilerplate",
   "author": "Goncalo Tojeiro <dev@tojeiro.me> (https://tojeiro.me)",
   "homepage": "https://github.com/tojeiro-me/Plasttic-create-boilerplate",
   "license": "MIT",
   "keywords": [
-    "plasttic boilerplate"
+    "plasttic",
+    "HTML",
+    "boilerplate"
   ],
   "type": "module",
   "repository": {

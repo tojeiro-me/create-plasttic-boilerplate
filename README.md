@@ -28,8 +28,6 @@ Go to [Plasttic HTML Boilerplate](https://github.com/tojeiro-me/Plasttic-boilerp
 
 ## Follow
 
----
-
 [![Twitter](https://plasttic.dev/repo/twitter.svg)](https://twitter.com/Plasttic_Dev)&emsp;[![Mastodon](https://plasttic.dev/repo/mastodon.svg)](https://mastodon.social/@plasttic)&emsp;[![Github](https://plasttic.dev/repo/github.svg)](https://github.com/tojeiro-me)
 
 ---
