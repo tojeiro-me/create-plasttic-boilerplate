@@ -1,11 +1,15 @@
-# 1.1.4 (Jul 06, 2023)
+# 1.1.5 (Jul 08, 2023)
 
-- Updated: dependencies
-- Updated: README
+- Updated: README Start section
 
 ---
 
 # Releases
+
+## 1.1.4 (Jul 06, 2023)
+
+- Updated: dependencies
+- Updated: README
 
 ## 1.1.3 (Jun 19, 2023)
 
