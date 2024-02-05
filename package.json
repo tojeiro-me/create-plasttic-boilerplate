@@ -39,9 +39,9 @@
     "fs-extra": "^11.1.1",
     "inquirer": "^9.2.7",
     "inquirer-autocomplete-prompt": "^3.0.0",
-    "npm": "^9.7.2",
-    "ora": "^6.3.1",
-    "pacote": "^15.2.0"
+    "npm": "^10.4.0",
+    "ora": "^8.0.1",
+    "pacote": "^17.0.6"
   },
   "devDependencies": {
     "@babel/core": "^7.22.5",
@@ -53,8 +53,8 @@
     "eslint-config-airbnb": "^19.0.4",
     "eslint-config-airbnb-typescript": "^17.0.0",
     "eslint-config-node": "^4.1.0",
-    "eslint-config-prettier": "^8.8.0",
-    "eslint-config-wesbos": "^3.2.3",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-config-wesbos": "^4.0.1",
     "eslint-plugin-html": "^7.1.0",
     "eslint-plugin-import": "^2.27.5",
     "eslint-plugin-prettier": "^5.0.0",
