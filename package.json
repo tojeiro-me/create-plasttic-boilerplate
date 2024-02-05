@@ -37,7 +37,7 @@
     "elapsed-time-logger": "^1.1.7",
     "fast-glob": "^3.2.12",
     "fs-extra": "^11.1.1",
-    "inquirer": "^9.2.7",
+    "inquirer": "^9.2.14",
     "inquirer-autocomplete-prompt": "^3.0.0",
     "npm": "^10.4.0",
     "ora": "^8.0.1",
