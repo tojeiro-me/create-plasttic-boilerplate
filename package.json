@@ -38,7 +38,7 @@
     "fast-glob": "^3.2.12",
     "fs-extra": "^11.2.0",
     "inquirer": "^9.2.14",
-    "inquirer-autocomplete-prompt": "^3.0.0",
+    "inquirer-autocomplete-prompt": "^3.0.1",
     "npm": "^10.4.0",
     "ora": "^8.0.1",
     "pacote": "^17.0.6"

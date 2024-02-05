@@ -12,7 +12,7 @@ dependencies:
     specifier: ^1.1.7
     version: 1.1.7
   fast-glob:
-    specifier: ^3.3.2
+    specifier: ^3.2.12
     version: 3.3.2
   fs-extra:
     specifier: ^11.2.0
@@ -21,8 +21,8 @@ dependencies:
     specifier: ^9.2.14
     version: 9.2.14
   inquirer-autocomplete-prompt:
-    specifier: ^3.0.0
-    version: 3.0.0(inquirer@9.2.14)
+    specifier: ^3.0.1
+    version: 3.0.1(inquirer@9.2.14)
   npm:
     specifier: ^10.4.0
     version: 10.4.0
@@ -2349,9 +2349,9 @@ packages:
   /inherits@2.0.4:
     resolution: {integrity: sha512-k/vGaX4/Yla3WzyMCvTQOXYeIHvqOKtnqBduzTHpzpQZzAskKMhZ2K+EnBiSM9zGSoIFeMpXKxa4dYeZIQqewQ==}
 
-  /inquirer-autocomplete-prompt@3.0.0(inquirer@9.2.14):
-    resolution: {integrity: sha512-nsPWllBQB3qhvpVgV1UIJN4xo3yz7Qv8y1+zrNVpJUNPxtUZ7btCum/4UCAs5apPCe/FVhKH1V6Wx0cAwkreyg==}
-    engines: {node: '>=12'}
+  /inquirer-autocomplete-prompt@3.0.1(inquirer@9.2.14):
+    resolution: {integrity: sha512-DQBXwX2fVQPVUzu4v4lGgtNgyjcX2+rTyphb2MeSOQh3xUayKAfHAF4y0KgsMi06m6ZiR3xIOdzMZMfQgX2m9w==}
+    engines: {node: '>=16'}
     peerDependencies:
       inquirer: ^9.1.0
     dependencies:
