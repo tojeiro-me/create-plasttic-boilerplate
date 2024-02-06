@@ -1,4 +1,4 @@
-name: Plasttic Auto Merge
+name: Plasttic Dependabot Auto Merge
 on: pull_request
 
 permissions:
