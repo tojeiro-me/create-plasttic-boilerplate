@@ -1,15 +1,16 @@
-# 1.1.6 (Feb 05, 2024)
+# 1.1.6 (Feb 06, 2024)
 
 - Updated: README Start section
 - Updated: dependencies
-
-# 1.1.5 (Jul 08, 2023)
-
-- Updated: README Start section
+- Updated: linting
 
 ---
 
 # Releases
+
+## 1.1.5 (Jul 08, 2023)
+
+- Updated: README Start section
 
 ## 1.1.4 (Jul 06, 2023)
 
