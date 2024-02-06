@@ -1,4 +1,4 @@
-# 1.1.6 (Feb --, 2024)
+# 1.1.6 (Feb 05, 2024)
 
 - Updated: README Start section
 - Updated: dependencies
