@@ -68,8 +68,8 @@ devDependencies:
     specifier: ^4.0.1
     version: 4.0.1(eslint@8.56.0)(prettier@3.2.5)(typescript@5.3.3)
   eslint-plugin-html:
-    specifier: ^7.1.0
-    version: 7.1.0
+    specifier: ^8.0.0
+    version: 8.0.0
   eslint-plugin-import:
     specifier: ^2.29.1
     version: 2.29.1(@typescript-eslint/parser@6.21.0)(eslint@8.56.0)
@@ -1830,6 +1830,13 @@ packages:
       htmlparser2: 8.0.2
     dev: true
 
+  /eslint-plugin-html@8.0.0:
+    resolution: {integrity: sha512-NINLBAXM3mLa3k5Ezr/kNLHAJJwbot6lS7Ro+SUftDw4cA51KMmcDuCf98GP6Q6kTVPY1hIggzskxAdxfUPXSA==}
+    engines: {node: '>=16.0.0'}
+    dependencies:
+      htmlparser2: 9.1.0
+    dev: true
+
   /eslint-plugin-import@2.29.1(@typescript-eslint/parser@6.21.0)(eslint@8.56.0):
     resolution: {integrity: sha512-BbPC0cuExzhiMo4Ff1BTVwHpjjv28C5R+btTOGaCRC7UEz801up0JadwkeSk5Ued6TG34uaczuVuH6qyy5YUxw==}
     engines: {node: '>=4'}
@@ -2440,6 +2447,15 @@ packages:
 
   /htmlparser2@8.0.2:
     resolution: {integrity: sha512-GYdjWKDkbRLkZ5geuHs5NY1puJ+PXwP7+fHPRz06Eirsb9ugf6d8kkXav6ADhcODhFFPMIXyxkxSuMf3D6NCFA==}
+    dependencies:
+      domelementtype: 2.3.0
+      domhandler: 5.0.3
+      domutils: 3.1.0
+      entities: 4.5.0
+    dev: true
+
+  /htmlparser2@9.1.0:
+    resolution: {integrity: sha512-5zfg6mHUoaer/97TxnGpxmbR7zJtPwIYFMZ/H5ucTlPZhKvtum05yiPK3Mgai3a0DyVxv7qYqoweaEd2nrYQzQ==}
     dependencies:
       domelementtype: 2.3.0
       domhandler: 5.0.3
