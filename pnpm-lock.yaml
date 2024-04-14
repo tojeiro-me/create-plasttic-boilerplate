@@ -30,8 +30,8 @@ dependencies:
     specifier: ^8.0.1
     version: 8.0.1
   pacote:
-    specifier: ^17.0.6
-    version: 17.0.6
+    specifier: ^17.0.7
+    version: 17.0.7
 
 devDependencies:
   '@babel/core':
@@ -2384,6 +2384,7 @@ packages:
     engines: {node: '>= 0.4.0'}
     dependencies:
       function-bind: 1.1.2
+    dev: true
 
   /hasown@2.0.0:
     resolution: {integrity: sha512-vUptKVTpIJhcczKBbgnS+RtcuYMB8+oNzPK2/Hp3hanz8JmpATdmmgLgSaadVREkDm+e2giHwY3ZRkyjSIDDFA==}
@@ -2589,16 +2590,10 @@ packages:
     engines: {node: '>= 0.4'}
     dev: true
 
-  /is-core-module@2.12.1:
-    resolution: {integrity: sha512-Q4ZuBAe2FUsKtyQJoQHlvP8OvBERxO3jEmy1I7hcRXcJBGGHFh/aJBswbXuS9sgrDH2QUO8ilkwNPHvHMd8clg==}
-    dependencies:
-      has: 1.0.3
-
   /is-core-module@2.13.1:
     resolution: {integrity: sha512-hHrIjvZsftOsvKSn2TRYl63zvxsgE0K+0mYMoH6gD4omR5IWB2KynivBQczo3+wF1cCkjzvptnI9Q0sPU66ilw==}
     dependencies:
       hasown: 2.0.0
-    dev: true
 
   /is-date-object@1.0.5:
     resolution: {integrity: sha512-9YQaSxsAiSwcvS33MBk3wTCVnWK+HhF8VZR2jRxehM16QcVOdHqPn4VPHmRK4lSr38n9JriurInLcP90xsYNfQ==}
@@ -3101,7 +3096,7 @@ packages:
     engines: {node: ^16.14.0 || >=18.0.0}
     dependencies:
       hosted-git-info: 7.0.1
-      is-core-module: 2.12.1
+      is-core-module: 2.13.1
       semver: 7.5.4
       validate-npm-package-license: 3.0.4
     dev: false
@@ -3425,8 +3420,8 @@ packages:
       aggregate-error: 3.1.0
     dev: false
 
-  /pacote@17.0.6:
-    resolution: {integrity: sha512-cJKrW21VRE8vVTRskJo78c/RCvwJCn1f4qgfxL4w77SOWrTCRcmfkYHlHtS0gqpgjv3zhXflRtgsrUCX5xwNnQ==}
+  /pacote@17.0.7:
+    resolution: {integrity: sha512-sgvnoUMlkv9xHwDUKjKQFXVyUi8dtJGKp3vg6sYy+TxbDic5RjZCHF3ygv0EJgNRZ2GfRONjlKPUfokJ9lDpwQ==}
     engines: {node: ^16.14.0 || >=18.0.0}
     hasBin: true
     dependencies:
@@ -3441,7 +3436,7 @@ packages:
       npm-packlist: 8.0.2
       npm-pick-manifest: 9.0.0
       npm-registry-fetch: 16.1.0
-      proc-log: 3.0.0
+      proc-log: 4.0.0
       promise-retry: 2.0.1
       read-package-json: 7.0.0
       read-package-json-fast: 3.0.2
@@ -3518,6 +3513,11 @@ packages:
 
   /proc-log@3.0.0:
     resolution: {integrity: sha512-++Vn7NS4Xf9NacaU9Xq3URUuqZETPsf8L4j5/ckhaRYsfPeRyzGw+iDjFhV/Jr3uNmTvvddEJFWh5R1gRgUH8A==}
+    engines: {node: ^14.17.0 || ^16.13.0 || >=18.0.0}
+    dev: false
+
+  /proc-log@4.0.0:
+    resolution: {integrity: sha512-v1lzmYxGDs2+OZnmYtYZK3DG8zogt+CbQ+o/iqqtTfpyCmGWulCTEQu5GIbivf7OjgIkH2Nr8SH8UxAGugZNbg==}
     engines: {node: ^14.17.0 || ^16.13.0 || >=18.0.0}
     dev: false
 
@@ -3629,7 +3629,7 @@ packages:
     resolution: {integrity: sha512-Sb+mjNHOULsBv818T40qSPeRiuWLyaGMa5ewydRLFimneixmVy2zdivRl+AF6jaYPC8ERxGDmFSiqui6SfPd+g==}
     hasBin: true
     dependencies:
-      is-core-module: 2.12.1
+      is-core-module: 2.13.1
       path-parse: 1.0.7
       supports-preserve-symlinks-flag: 1.0.0
     dev: true
@@ -3647,7 +3647,7 @@ packages:
     resolution: {integrity: sha512-iMDbmAWtfU+MHpxt/I5iWI7cY6YVEZUQ3MBgPQ++XD1PELuJHIl82xBmObyP2KyQmkNB2dsqF7seoQQiAn5yDQ==}
     hasBin: true
     dependencies:
-      is-core-module: 2.12.1
+      is-core-module: 2.13.1
       path-parse: 1.0.7
       supports-preserve-symlinks-flag: 1.0.0
     dev: true
