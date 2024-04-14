@@ -24,8 +24,8 @@ dependencies:
     specifier: ^3.0.1
     version: 3.0.1(inquirer@9.2.17)
   npm:
-    specifier: ^10.5.1
-    version: 10.5.1
+    specifier: ^10.5.2
+    version: 10.5.2
   ora:
     specifier: ^8.0.1
     version: 8.0.1
@@ -3162,8 +3162,8 @@ packages:
       - supports-color
     dev: false
 
-  /npm@10.5.1:
-    resolution: {integrity: sha512-RozZuGuWbbhDM2sRhOSLIRb3DLyof6TREi0TW5b3xUEBropDhDqEHv0iAjA1zsIwXKgfIkR8GvQMd4oeKKg9eQ==}
+  /npm@10.5.2:
+    resolution: {integrity: sha512-cHVG7QEJwJdZyOrK0dKX5uf3R5Fd0E8AcmSES1jLtO52UT1enUKZ96Onw/xwq4CbrTZEnDuu2Vf9kCQh/Sd12w==}
     engines: {node: ^18.17.0 || >=20.5.0}
     hasBin: true
     dev: false
