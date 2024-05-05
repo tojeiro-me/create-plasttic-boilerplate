@@ -39,7 +39,7 @@
     "fs-extra": "^11.2.0",
     "inquirer": "^9.2.19",
     "inquirer-autocomplete-prompt": "^3.0.1",
-    "npm": "^10.5.2",
+    "npm": "^10.7.0",
     "ora": "^8.0.1",
     "pacote": "^18.0.0"
   },
