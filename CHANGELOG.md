@@ -1,5 +1,9 @@
 # 1.1.6 (Feb 06, 2024)
 
+- :warning: Updated: Replaced Dependabot with Renovate
+- :warning: Updated: Dependabot for GitHub Actions only
+- :warning: Removed: Dependabot Auto Merge
+  
 - Updated: README Start section
 - Updated: dependencies
 - Updated: linting
